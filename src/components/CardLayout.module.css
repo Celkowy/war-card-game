@@ -24,12 +24,8 @@
 }
 
 .suitCenter {
-  /* position: absolute; */
-  /* left: 50%; */
-  /* top: 50%; */
-  /* transform: translate(-50%, -50%); */
-  width: 52px;
-  height: 52px;
+  width: 54px;
+  height: 54px;
   color: red;
 }
 
@@ -75,11 +71,23 @@
   justify-content: space-evenly;
 }
 
+.ten {
+  justify-content: space-around;
+}
+
 .card_center {
   justify-content: center;
 }
 
-.king {
-  height: 108px;
-  width: 108px;
+.court {
+  font-size: 108px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.ace {
+  width: 132px;
+  height: 132px;
 }

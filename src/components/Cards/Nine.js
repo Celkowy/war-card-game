@@ -6,8 +6,8 @@ function Nine({ suit }) {
       <div className={`${styles.card_contaier__column}`}>
         <div>{suit}</div>
         <div>{suit}</div>
-        <div>{suit}</div>
-        <div>{suit}</div>
+        <div className={`${styles.rotate}`}>{suit}</div>
+        <div className={`${styles.rotate}`}>{suit}</div>
       </div>
       <div className={`${styles.card_contaier__column} ${styles.second_column}`}>
         <div>{suit}</div>
@@ -15,8 +15,8 @@ function Nine({ suit }) {
       <div className={`${styles.card_contaier__column}`}>
         <div>{suit}</div>
         <div>{suit}</div>
-        <div>{suit}</div>
-        <div>{suit}</div>
+        <div className={`${styles.rotate}`}>{suit}</div>
+        <div className={`${styles.rotate}`}>{suit}</div>
       </div>
     </>
   )
