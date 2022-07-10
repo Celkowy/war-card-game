@@ -1,9 +1,5 @@
-import Card from './Card'
+import SuitLayoutHandler from './SuitLayoutHandler'
 
 export default function Player(props) {
-  function linki() {
-    console.log('linki')
-  }
-
-  return <Card card={props.cards[0]} link={linki}></Card>
+  return <SuitLayoutHandler card={props.cards[0]}></SuitLayoutHandler>
 }

@@ -3,7 +3,7 @@ import Wrapper from './Wrapper'
 import Player from './components/Player'
 import Computer from './components/Computer'
 import styles from './Wrapper.module.css'
-import { figures } from './components/figures/Figures'
+import { figures } from './components/FullDeck/Figures'
 import React from 'react'
 
 const cards = [...figures]

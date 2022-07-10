@@ -1,5 +1,5 @@
-import Card from './Card'
+import SuitLayoutHandler from './SuitLayoutHandler'
 
 export default function Computer(props) {
-  return <Card card={props.cards[0]}></Card>
+  return <SuitLayoutHandler card={props.cards[0]}></SuitLayoutHandler>
 }
